@@ -1,7 +1,7 @@
 <?php
 
 
-$name = preg_replace('\W*', '', $_POST['name']);
+$name = preg_replace('/[^a-zA-Z0-9_-]/', '', $_POST['name']);
 $name = strtolower($name);
 if($name==null){
 ?>
