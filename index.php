@@ -131,7 +131,7 @@
 
       
       <div class="footer">
-        <p>&copy; JOPHESTUS 2013 - <a href="https://github.com/JOPHESTUS/isthispersonaweso.me">GitHub Source</a></p>
+        <p>&copy; JOPHESTUS 2013 - <a href="https://github.com/JOPHESTUS/isthispersonaweso.me" class="btn btn-info"><img src="git.png"/></a></p>
       </div>
 
     </div> <!-- /container -->
