@@ -10,3 +10,10 @@ You'll have to create your own users in the database table.
 Use 3 columns "id, username & password" id is a primary key thing.
 
 If you need anything else explained email me at JOPHESTUS@jophest.us
+
+
+
+Licensing
+====================
+You're free to do whatever you want with this and use it how you like under the following conditon(s):
+1) On the main index page (or all if you want) be sure to leave the "C - JOPHESTUS"
