@@ -1,7 +1,7 @@
 <?php
 
 
-$name=$_POST['name']; 
+$name = preg_replace('\W*', '', $_POST['name']);
 $name = strtolower($name);
 if($name==null){
 ?>
