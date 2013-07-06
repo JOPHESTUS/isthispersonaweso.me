@@ -120,24 +120,30 @@
 		
         <form class="form-horizontal" method="post" action="send_form_email.php">
  <label class="control-label" for="inputName">Your Name</label>
-    <input type="text" placeholder="John Doe">
+    <input class="input-xxlarge" type="text" placeholder="John Doe">
 	<p></p>
 		<label class="control-label" for="inputEmail">Your Email</label>
-		<input type="text" placeholder="someone@example.com">
+		<input class="input-xxlarge" type="text" placeholder="someone@example.com">
 		<p></p>
 		<label class="control-label" for="inputMessage">Your Message</label>
-		<textarea rows="6" placeholder="Message goes here"></textarea>
- <div class="control-group">
-    <div class="controls">  
+		<textarea class="input-xxlarge" rows="6" placeholder="Message goes here"></textarea>
+ 
+    
+	<table align="center">
+
+    <tr>
+	<td>
 	<?php
   require_once('recaptchalib.php');
   $publickey = "6LcI5OMSAAAAAFrnvMVwFJT0rP1-Dgb0x7UpprUg"; // you got this from the signup page
   echo recaptcha_get_html($publickey);
   ?>
+  </td> 
+    </tr></table>
+
 	<p></p>
       <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </div>
+  
 		
 </form>
     
