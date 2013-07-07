@@ -133,7 +133,7 @@ if($_SESSION['authenticated'] != 'JOPHESTUS') {
 		<form class="form-search" method="post" action="add.php">
    <input name="name" id="name" type="text" placeholder="Type a name...">
   <p></p>
-  <input name="state" id="state" width="100" type="text" placeholder="How awesome? 1-100">
+  <input name="state" id="state" width="100" type="number" placeholder="How awesome? 1-100">
   <p></p>
   <button name="Submit" type="submit" class="btn btn-large btn-warning">Add User</button>
 </form>  

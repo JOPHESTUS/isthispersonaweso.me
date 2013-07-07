@@ -1,4 +1,10 @@
 <?php
+
+if($_SESSION['authenticated'] != 'JOPHESTUS') {
+    header("Location: ./#");
+	session_destroy();
+   }
+   
 session_start();
 $username = $_POST['name'];
 $state = $_POST['state'];
