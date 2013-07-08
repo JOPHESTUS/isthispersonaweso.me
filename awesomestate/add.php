@@ -3,7 +3,7 @@
 if($_SESSION['authenticated'] != 'JOPHESTUS') {
     header("Location: ./#");
 	session_destroy();
-   }
+   } else {
    
 session_start();
 $username = $_POST['name'];
@@ -19,4 +19,5 @@ fclose($file);
 </div>
 <?php
 include("admin.php");
+}
 ?>
