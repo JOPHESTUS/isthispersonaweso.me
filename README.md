@@ -13,5 +13,7 @@ If you need anything else explained email me at JOPHESTUS@jophest.us
 Licensing
 ====================
 You're free to do whatever you want with this and use it how you like under the following conditon(s):
+
 1) On the main index page (or all if you want) be sure to leave the copyright ("C - JOPHESTUS")
+
 2) You mustn't use this site for any malicious purposes
