@@ -107,7 +107,7 @@
               <ul class="nav">
                 <li class="active"><a href="./#">Home</a></li>
                 <li><a href="./about">About</a></li>
-                <li><a href="./contact">Contact</a></li>
+               <li><a href="./admin">Admin Panel</a></li>
               </ul>
             </div>
           </div>
@@ -131,7 +131,7 @@
 
       
       <div class="footer">
-        <p>&copy; JOPHESTUS 2013 - <a href="https://github.com/JOPHESTUS/isthispersonaweso.me" class="btn btn-info"><img src="git.png"/></a></p>
+       <p>&copy; JOPHESTUS 2013 - <a href="https://github.com/JOPHESTUS/isthispersonaweso.me" class="btn btn-info"><img src="git.png"/></a>                                           <a href="isthispersonawesomeMobileApp.apk" class="btn btn-info"><img src="android.png"/> Now on Android!</a></p>
       </div>
 
     </div> <!-- /container -->

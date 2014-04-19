@@ -113,7 +113,7 @@ $contents=file_get_contents("./awesomestate/$name.awesome");
               <ul class="nav">
   <li><a href="./">Home</a></li>
                 <li><a href="./about">About</a></li>
-             <li><a href="./contact">Contact</a></li>
+            <li><a href="./admin">Admin Panel</a></li>
               </ul>
             </div>
           </div>
