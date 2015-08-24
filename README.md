@@ -4,7 +4,7 @@ isthispersonaweso.me
 Names are stored in /awesomestate/[name].awesome .Inside that file is a number from 1-100 which determines if you're awesome, sorta or not.
 0-33 not awesome, 34-66 sorta awesome, 67-100 awesome.
 
-Mobile functionality has been added in. To view a mobile version (for apps or things you wanna make) http://isthispersonaweso.me/checkmobile.php?id=NAMEGOESHERE
+Mobile functionality has been added in. To view a mobile version (for apps or things you wanna make) http://itpa.jophest.us/checkmobile.php?id=NAMEGOESHERE
 
 
 If you need anything else explained email me at JOPHESTUS@jophest.us
